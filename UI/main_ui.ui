@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1107</width>
+    <height>830</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="media1" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>30</y>
+     <width>521</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 4);</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="media2" native="true">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>30</y>
+     <width>521</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 0, 4);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tongbu">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>460</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>同步</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="v1_slider">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>420</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QSlider" name="v2_slider">
+   <property name="geometry">
+    <rect>
+     <x>580</x>
+     <y>420</y>
+     <width>441</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time1">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>430</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="time2">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>430</y>
+     <width>72</width>
+     <height>15</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="v1_stop_bnt">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>462</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="v1_start_bnt">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>462</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="v2_stop_bnt">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>462</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="v2_start_bnt">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>462</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="final_start_bnt">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>460</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="final_stop_bnt">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>460</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>暂停</string>
+   </property>
+  </widget>
+  <widget class="QSlider" name="final_slider">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>430</y>
+     <width>771</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Horizontal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="final_time">
+   <property name="geometry">
+    <rect>
+     <x>840</x>
+     <y>460</y>
+     <width>131</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="bq_btn">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>500</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>标签</string>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="time_list">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>540</y>
+     <width>291</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="save_btn">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>630</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保存配置</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>v1_slider</sender>
+   <signal>sliderPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>v1_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>112</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>104</x>
+     <y>574</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v2_slider</sender>
+   <signal>sliderPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>v2_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>998</x>
+     <y>436</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>985</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>final_slider</sender>
+   <signal>sliderPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>all_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>505</x>
+     <y>436</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>507</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>tongbu</sender>
+   <signal>pressed()</signal>
+   <receiver>Form</receiver>
+   <slot>tongbu()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>529</x>
+     <y>472</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>654</x>
+     <y>519</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>time_list</sender>
+   <signal>itemDoubleClicked(QListWidgetItem*)</signal>
+   <receiver>Form</receiver>
+   <slot>go_active()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>557</x>
+     <y>641</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>742</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v1_start_bnt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>v1_start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>469</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>51</x>
+     <y>527</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v1_stop_bnt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>v1_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>161</x>
+     <y>483</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>181</x>
+     <y>544</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v2_start_bnt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>v1_start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>629</x>
+     <y>478</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>765</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v2_stop_bnt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>v2_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>744</x>
+     <y>482</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>866</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>final_start_bnt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>all_start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>251</x>
+     <y>471</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>278</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>final_stop_bnt</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>all_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>337</x>
+     <y>468</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>bq_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>label()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>348</x>
+     <y>510</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>411</x>
+     <y>501</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>save_btn</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>save_all()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>884</x>
+     <y>653</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>895</x>
+     <y>686</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v1_slider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>Form</receiver>
+   <slot>v1_set_time()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>136</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>140</x>
+     <y>579</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>v2_slider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>Form</receiver>
+   <slot>v2_set_time()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>593</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1008</x>
+     <y>569</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>final_slider</sender>
+   <signal>sliderMoved(int)</signal>
+   <receiver>Form</receiver>
+   <slot>all_set_time()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>567</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>738</x>
+     <y>591</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>final_slider</sender>
+   <signal>sliderPressed()</signal>
+   <receiver>Form</receiver>
+   <slot>all_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>441</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>475</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>stopv1()</slot>
+  <slot>stopv2()</slot>
+  <slot>stopall()</slot>
+  <slot>tongbu()</slot>
+  <slot>go_active()</slot>
+  <slot>v1_start()</slot>
+  <slot>v1_stop()</slot>
+  <slot>v2_start()</slot>
+  <slot>v2_stop()</slot>
+  <slot>all_start()</slot>
+  <slot>all_stop()</slot>
+  <slot>label()</slot>
+  <slot>v1_set_time()</slot>
+  <slot>v2_set_time()</slot>
+  <slot>all_set_time()</slot>
+  <slot>save_all()</slot>
+ </slots>
+</ui>
